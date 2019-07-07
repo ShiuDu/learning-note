@@ -54,11 +54,11 @@ Git ÓĞÈıÖÖ×´Ì¬£¬ÄãµÄÎÄ¼ş¿ÉÄÜ´¦ÓÚÆäÖĞÖ®Ò»£ºÒÑÌá½»£¨committed£©¡¢ÒÑĞŞ¸Ä£¨modified£
 ÓÉ´ËÒıÈë Git ÏîÄ¿µÄÈı¸ö¹¤×÷ÇøÓòµÄ¸ÅÄî£ºGit ²Ö¿â¡¢¹¤×÷Ä¿Â¼ÒÔ¼°Ôİ´æÇøÓò¡£
 
 ´´½¨GitHUbÔ¶³Ì²Ö¿â
-ssh-keygen -t rsa?-C "×¢²áµÄÓÊÏä"   
+ssh-keygen -t rsa -C "×¢²áµÄÓÊÏä"   
 ssh -T git@github.com ÅĞ¶Ï±¾µØ²Ö¿âºÍÔ¶³Ì²Ö¿âÊÇ·ñÁ¬Í¨    
-git?remote?add?origin?git@github.com?"Ìí¼ÓÔ¶³Ì²Ö¿â"  
-git?push?-u?origin?master?"µÚÒ»´ÎÁ¬½ÓÔ¶³Ì²Ö¿âÍÆËÍ"£¨Ä¬ÈÏ°Ñ±¾µØmasterºÍÔ¶³Ìmaster¹ØÁª£©   
-git?pull?origin?<·ÖÖ§Ãû>?"°ÑÔ¶³Ì·ÖÖ§À­È¡»ØÀ´µ½±¾µØ£¬Í¬Ê±°Ñ±¾µØ´úÂëºÍÔ¶³Ì´úÂëºÏ²¢  
+git remote add origin git@github.com "Ìí¼ÓÔ¶³Ì²Ö¿â"  
+git push -u origin master "µÚÒ»´ÎÁ¬½ÓÔ¶³Ì²Ö¿âÍÆËÍ"£¨Ä¬ÈÏ°Ñ±¾µØmasterºÍÔ¶³Ìmaster¹ØÁª£©   
+git pull origin <·ÖÖ§Ãû> "°ÑÔ¶³Ì·ÖÖ§À­È¡»ØÀ´µ½±¾µØ£¬Í¬Ê±°Ñ±¾µØ´úÂëºÍÔ¶³Ì´úÂëºÏ²¢  
 origin Ò»°ãÊÇÔ´£¬ÈÏÎªÊÇÔ¶³Ì²Ö¿â  
 
 ×Ü½á
